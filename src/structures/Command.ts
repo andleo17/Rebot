@@ -1,8 +1,4 @@
-import {
-	ChatInputCommandInteraction,
-	InteractionReplyOptions,
-	SlashCommandBuilder,
-} from 'discord.js';
+import { ChatInputCommandInteraction, SlashCommandBuilder } from 'discord.js';
 import { ReBot } from './ReBot';
 
 type CommandArguments = {
